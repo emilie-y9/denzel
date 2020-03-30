@@ -2,6 +2,8 @@
   "name": "denzel",
   "version": "0.0.1",
   "description": "The must-watch Denzel's movies",
+  "repository": "https://github.com/emilie-y9/denzel.git",
+  "main": "index.js",
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
