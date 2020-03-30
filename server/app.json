@@ -1,8 +1,0 @@
-{
-    "name": "Denzel API",
-    "description": "An API that exposes Denzel Movies",
-    "repository": "https://github.com/emilie-y9/denzel.git",
-    "keywords": [
-       "Denzel"
-    ]
-}
