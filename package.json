@@ -6,6 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/emilie-y9/denzel.git"
   },
+  "start": "node server/index.js",
   "main": "server/index.js",
   "dependencies": {
     "axios": "^0.19.2",
