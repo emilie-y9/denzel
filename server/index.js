@@ -5,7 +5,8 @@ const graphqlHTTP = require("express-graphql");
 const { GraphQLSchema } = require("graphql");
 const imdb = require("./imdb");
 const db = require("./db");
-const { queryType } = require("./graphql/queries");
+const { queryType } = require("./graphQL/queries");
+
 const {
   PORT,
   DENZEL_IMDB_ID,
@@ -103,4 +104,4 @@ app.post("/movies/:id", async (request, response) => {
 });
 
 app.listen(PORT);
-console.log(`📡 Running on port ${PORT}`);
+//console.log(`📡 Running on port ${PORT}`);

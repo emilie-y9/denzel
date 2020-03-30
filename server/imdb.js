@@ -24,7 +24,7 @@ const getFilmography = async actor => {
       })
       .get();
   } catch (error) {
-    console.error(error);
+   // console.error(error);
     return [];
   }
 };
@@ -60,7 +60,7 @@ const getMovie = async link => {
       'year': Number($('#titleYear a').text())
     };
   } catch (error) {
-    console.error(error);
+   // console.error(error);
     return {};
   }
 };

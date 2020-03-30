@@ -6,12 +6,13 @@
     "type": "git",
     "url": "git+https://github.com/emilie-y9/denzel.git"
   },
-  "main": "index.js",
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
     "helmet": "^3.21.3",
     "mongodb": "^3.5.4",
     "p-limit": "^2.2.2",
@@ -25,11 +26,14 @@
   },
   "homepage": "https://github.com/emilie-y9/denzel#readme",
   "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Emilie",
   "license": "ISC",
   "engines": {
     "node": "12.14.1"
-  }
+  },
+  "main": "index.js"
 }

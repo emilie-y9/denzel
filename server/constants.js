@@ -6,9 +6,9 @@ const P_LIMIT = 25;
 const LIMIT_SEARCH = 5;
 const METASCORE_SEARCH = 0;
 const PORT = process.env.NODE_ENV === "production" ? process.env.PORT : 9292;
-const MONGO_URI = process.env.NODE_ENV === "production"
+const MONGO_URI =/* process.env.NODE_ENV === "production"
 ? process.env.MONGO_URI
-:"mongodb+srv://student_ey:LA3rX0Bd9V6zIdti@clusterwebapps-agkgg.mongodb.net/test?retryWrites=true&w=majority";
+:*/"mongodb+srv://student_ey:LA3rX0Bd9V6zIdti@clusterwebapps-agkgg.mongodb.net/test?retryWrites=true&w=majority";
 const METASCORE_DEFAULT = 70;
 const DATABASE_NAME = "ClusterWebApps";
 
