@@ -1,6 +1,8 @@
 # DENZEL
 
-> With React (Client-side): 
+ ## Using Heroku 2X :
+
+> React (Client-side): 
 
  https://denzel-emilie-y9.herokuapp.com/
 
