@@ -2,7 +2,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 const pLimit = require('p-limit');
 const pSettle = require('p-settle');
-const {IMDB_NAME_URL, IMDB_URL, P_LIMIT, MONGO_URI} = require('./constants');
+const {DATABASE_NAME, IMDB_NAME_URL, IMDB_URL, P_LIMIT, MONGO_URI} = require('./constants');
 const { MongoClient } = require("mongodb");
 
 /**
@@ -76,7 +76,7 @@ const writeToDatabase = async movies => {
   return new Promise((resolve, reject) => {
     client.connect(err => {
       if (err) reject(err);
-      const collection = client.db("main").collection("movies");
+      const collection = client.db(DATABASE_NAME).collection("movies");
       collection.deleteMany({}, (err, res) => {
         if (err) reject(err);
         console.log(`Deleted ${res.deletedCount} objects`);
