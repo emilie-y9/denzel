@@ -40,7 +40,10 @@ app.get("/", (request, response) => {
 1rst endpoint: populate db with movies of an actor id by default denzel_imdb_id
 */
 app.get("/movies/populate/:id", async (request, response) => {
-  const id = request.params.id || DENZEL_IMDB_ID;
+  if (request.params.id==undefined)
+ { var id = DENZEL_IMDB_ID;
+ }
+ else{var id = request.params.id;}
   try {
     const results = await imdb(id);
     response.send({ total: results.length });
