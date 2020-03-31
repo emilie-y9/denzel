@@ -1,5 +1,8 @@
 # DENZEL
 
+With React (Client-side): 
+![gif denzel react app](https://media.giphy.com/media/VIz3W004bxwQXe0gCM/giphy.gif)
+
 Api Deployed : 
 
 https://denzel-movies-api-ey.herokuapp.com/movies
