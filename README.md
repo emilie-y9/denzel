@@ -2,11 +2,13 @@
 
 > With React (Client-side): 
 
+ https://denzel-emilie-y9.herokuapp.com/
+
 ![gif denzel react app](https://media.giphy.com/media/VIz3W004bxwQXe0gCM/giphy.gif)
 
 > Api Deployed : 
-
-https://denzel-movies-api-ey.herokuapp.com/movies
+ 
+ https://denzel-movies-api-ey.herokuapp.com/movies
 
 ![Screenshot Deployed Api](img/deployed_api.PNG) 
 
